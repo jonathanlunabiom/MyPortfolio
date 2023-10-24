@@ -9,10 +9,13 @@
     --maintitle: 'Exo 2', sans-serif;
 }
 
+body, html {
+    overflow-x: hidden;
+}
+
 * {
     font-family: var(--mainfont);
     margin: 0px;
-    width: 100%;
 }
 
 h1{
@@ -22,24 +25,27 @@ h1{
 
 body{
     background-color: var(--timberwolf);
-    min-height: 100vh;
 }
 
 main{
     position: relative;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100vh;
 }
 
 footer {
     border-top: solid 1px;
     background: var(--burntumber);
-    position: absolute;
-    bottom: 1; /* with 0 sticks to the top and with 1 it sticks more to the bottom (???)*/
+    /* position: absolute;
+    bottom: 1; with 0 sticks to the top and with 1 it sticks more to the bottom (???) */
     display: flex;
     justify-content: space-evenly;
     padding: 3rem 2.5rem;
     border: none;
     border-radius: 4px;
     color: var(--timberwolf);
+    width: 100vw;
     
 }
 
@@ -49,8 +55,8 @@ header {
     justify-content: space-between;
     align-items: center;
     color: #ffff;
-    height: 20%;
-    width: 100.92%;
+    height: 4vw;
+    width: 97vw;
     text-decoration: none;
     background-color: var(--night);
 }
@@ -87,6 +93,7 @@ img{
     justify-content: space-between;
     text-decoration: none;
     flex-shrink: 1.5; 
+    width: 20vw;
 }
 
 
@@ -97,6 +104,7 @@ img{
     flex-shrink: 1.5;
     font-size: large;
     text-decoration: none;
+    width: 20vw;
 }
 
 @media (max-width: 890px) {

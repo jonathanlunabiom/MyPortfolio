@@ -1,12 +1,11 @@
-import Header from './components/Header'
-import About from './components/About-me'
+import PortfolioContainer from './components/mainPortfolio'
 import Footer from './components/Footer'
 
 export default function App() {
+
   return (
     <main>
-      <Header/>
-      <About/>
+      <PortfolioContainer/>
       <Footer/>
     </main>
   )

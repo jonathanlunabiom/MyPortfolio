@@ -1,6 +1,6 @@
-export default function Footer (){
+export default function Aboutme (){
     return(
-        <main className="container">
+        <div className="container">
             <h2>About me!</h2>
             <div className="about-me">
                 <p className="info-aboutme">
@@ -14,6 +14,6 @@ export default function Footer (){
                 </p>
                 <img src="https://www.elsoldemexico.com.mx/gossip/8esuvu-amazin-spiderman-.png/ALTERNATES/LANDSCAPE_768/Amazin%20Spiderman%20.png" alt="" />
             </div>
-        </main>
+        </div>
     )
 }

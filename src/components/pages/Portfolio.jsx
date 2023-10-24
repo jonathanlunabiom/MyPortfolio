@@ -1,7 +1,7 @@
 export default function Portfolio (){
     return(
-        <body>
+        <div>
             <p>hello!</p>
-        </body>
+        </div>
     )
 }
