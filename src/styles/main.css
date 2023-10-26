@@ -113,3 +113,7 @@ img{
         flex-direction: column;
     }
 }
+
+.portfolio-div{
+    padding: 2rem;
+}
