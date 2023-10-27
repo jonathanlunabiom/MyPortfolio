@@ -9,9 +9,9 @@
     --maintitle: 'Exo 2', sans-serif;
 }
 
-body, html {
+/* body, html {
     overflow-x: hidden;
-}
+} */
 
 * {
     font-family: var(--mainfont);
@@ -37,27 +37,25 @@ main{
 footer {
     border-top: solid 1px;
     background: var(--burntumber);
-    /* position: absolute;
-    bottom: 1; with 0 sticks to the top and with 1 it sticks more to the bottom (???) */
+    position: absolute;
+    bottom: 0; 
     display: flex;
     justify-content: space-evenly;
-    padding: 3rem 2.5rem;
+    padding: 2rem;
     border: none;
-    border-radius: 4px;
     color: var(--timberwolf);
     width: 100vw;
-    
+    height: 12vh;
 }
 
 header {
-    padding: 2rem;
+    padding: 2rem 5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color: #ffff;
-    height: 4vw;
-    width: 97vw;
-    text-decoration: none;
+    height: 7vw;
+    width: 100vw;
     background-color: var(--night);
 }
 
@@ -81,19 +79,41 @@ img{
     align-items: center;
 }
 
+.jonathanluna-photo{
+    width: 37vh
+}
+
 .about-me{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 10rem;
     margin-top: 1rem;
+}
+.phrase{
+    margin-top: 1rem;
+    font-size: small;
+    font-style: italic;
 }
 
 .list-url{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+}
+
+.list-url-item{
     text-decoration: none;
-    flex-shrink: 1.5; 
-    width: 20vw;
+    color: #ffff;
+    border-bottom: 1px solid;
+    padding-bottom:4px;
+    width: 15vh;
+    text-align: center;
+
+}
+
+.info-aboutme{
+    text-align: justify;
+    font-size: 22.5px;
 }
 
 
@@ -101,17 +121,41 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-shrink: 1.5;
     font-size: large;
     text-decoration: none;
-    width: 20vw;
+    width: 12vw;
 }
 
-@media (max-width: 890px) {
+.social-media{
+    width: 5vh; 
+    border-radius: 0;
+    filter: brightness(0) invert(1);
+}
+
+@media (max-width: 995px) {
     .about-me{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
+}
+
+@media (max-width: 1400px) {
+
+    img{
+        width: 50vh;
+    }
+    .list-url{
+        width: 30vh;
+    }
+}
+
+@media (max-width: 650px) {
+
+    img{
+        width: 35vh;
+    }
+
 }
 
 .portfolio-div{

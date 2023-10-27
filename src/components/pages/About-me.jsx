@@ -3,17 +3,20 @@ export default function Aboutme (){
         <div className="container">
             <h2>About me!</h2>
             <div className="about-me">
-                <p className="info-aboutme">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Assumenda itaque similique totam molestias dolore ipsam quia laboriosam sed! 
-                    Officiis asperiores beatae id, eveniet blanditiis earum veritatis 
-                    accusantium esse quod suscipit?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam nihil 
-                    accusantium veniam voluptas qui nulla ea deserunt, quasi sed quibusdam provident minima vero, 
-                    illum recusandae obcaecati vitae et blanditiis? Dolorem?
-                </p>
-                <img src="https://www.elsoldemexico.com.mx/gossip/8esuvu-amazin-spiderman-.png/ALTERNATES/LANDSCAPE_768/Amazin%20Spiderman%20.png" alt="" />
-            </div>
+                <div>
+                    <p className="info-aboutme">
+                    My name is Jonathan Luna. I have a strong passion for the technology sector and hold a bachelor's 
+                    degree in Biomedical Engineering from the University of Guadalajara. Presently, I am actively 
+                    engaged in the field of full-stack web development and am on the verge of completing the full-stack 
+                    course offered by TEC de Monterrey. I also possess expertise in artificial intelligence engineering. 
+                    For further information about me, you are welcome to explore my social media profiles.
+                    </p>
+                </div>
+                <div>
+                 <img src="/src/assets/JDLA.JPG" alt="Jonathan Luna¿s image" className="jonathanluna-photo"/>
+                 <p className="phrase">I am dedicated to the pursuit of coding excellence</p>
+                </div>
+            </div> 
         </div>
     )
 }
