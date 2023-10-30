@@ -1,8 +1,8 @@
 export default function Portfolio (){
     return(
-        <div classNameName="portfolio-div">
-            <h2>Portfolio</h2>
-            <div id="carouselExample" className="carousel slide w-50">
+        <div>
+            <h2 className="portfolio-title">My Portfolio</h2>
+            <div id="carouselExample" className="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src="https://www.elsoldemexico.com.mx/gossip/8esuvu-amazin-spiderman-.png/ALTERNATES/LANDSCAPE_768/Amazin%20Spiderman%20.png" className="d-block w-100" alt="..."/>
@@ -25,4 +25,4 @@ export default function Portfolio (){
             </div>
         </div>
     )
-}
+}ç

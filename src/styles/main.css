@@ -9,10 +9,6 @@
     --maintitle: 'Exo 2', sans-serif;
 }
 
-/* body, html {
-    overflow-x: hidden;
-} */
-
 * {
     font-family: var(--mainfont);
     margin: 0px;
@@ -68,8 +64,9 @@ ul{
     list-style-type: none;
 }
 
-img{
-    border-radius: 10px;
+#title{
+    text-decoration: none;
+    color: #ffff;
 }
 
 .container{
@@ -80,7 +77,8 @@ img{
 }
 
 .jonathanluna-photo{
-    width: 37vh
+    width: 32vh;
+    margin-top: 0;
 }
 
 .about-me{
@@ -89,6 +87,7 @@ img{
     grid-gap: 10rem;
     margin-top: 1rem;
 }
+
 .phrase{
     margin-top: 1rem;
     font-size: small;
@@ -108,14 +107,30 @@ img{
     padding-bottom:4px;
     width: 15vh;
     text-align: center;
+}
 
+.list-url-item-active{
+    color: var(--auburn);
+    border-bottom: 1px solid var(--timberwolf);
 }
 
 .info-aboutme{
     text-align: justify;
     font-size: 22.5px;
+    width: 80vh;
 }
 
+.phrase-photo{
+    text-align: center;
+}
+
+.portfolio-title{
+    text-align: center;
+    margin-top: 2rem;
+}
+.carousel-inner{
+    border-radius: 10px;
+}
 
 .mymedia {
     display: flex;
@@ -130,23 +145,38 @@ img{
     width: 5vh; 
     border-radius: 0;
     filter: brightness(0) invert(1);
+    color: #B9BAA3;
 }
 
-@media (max-width: 995px) {
+@media (max-width: 1180px) {
     .about-me{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    footer{
+        margin-top: 2rem;
+    }
+    .info-aboutme{
+        font-size: large;
+    }
+    .about-me{
+        gap: 1rem;
+    }
+    #menu-bar{
+        display: block;
+        width: 3vh;
+        filter: brightness(0) invert(1);
+    }
+    .list-url{
+        display: none;
     }
 }
 
 @media (max-width: 1400px) {
 
     img{
-        width: 50vh;
-    }
-    .list-url{
-        width: 30vh;
+        width: 40vh;
     }
 }
 
@@ -155,9 +185,57 @@ img{
     img{
         width: 35vh;
     }
-
+    .info-aboutme{
+        padding: 1rem;
+    }
+    .about-me{
+        gap: 0;
+    }
+    .carousel{
+        margin: 0 auto;
+        width: 30vh;
+    }
 }
 
-.portfolio-div{
+.carousel{
     padding: 2rem;
+    margin: 0 auto;
+    width: 80vh;
+}
+
+.contact-me{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.a:active{
+    color: #ffff;
+}
+
+.form{
+    display: grid;
+    height: 30vh;
+    width: 40vh;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+input,textarea{
+    border: 1.5px solid black;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.btnsubmit{
+    border: none;
+    background-color: #902923;
+    color: #ffff;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 6px;
+}
+
+.hide{
+    display: none;
 }

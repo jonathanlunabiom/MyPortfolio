@@ -26,9 +26,9 @@ export default function App() {
   return (
     <div>
       {/* We are passing the currentPage from state and the function to update it */}
-      <Header handleChange={handleChange}/>
+      <Header handleChange={handleChange} currentPage={currentPage}/>
       {/* Here we are calling the renderPage method which will return a component  */}
-      <div className="mx-3">{renderPage()}</div>
+      <div className="m-container">{renderPage()}</div>
       <Footer/>
     </div>
   );

@@ -12,8 +12,8 @@ export default function Aboutme (){
                     For further information about me, you are welcome to explore my social media profiles.
                     </p>
                 </div>
-                <div>
-                 <img src="/src/assets/JDLA.JPG" alt="Jonathan Luna¿s image" className="jonathanluna-photo"/>
+                <div className="phrase-photo">
+                 <img src="/src/assets/JDLA-BN.PNG" alt="Jonathan Luna¿s image" className="jonathanluna-photo"/>
                  <p className="phrase">I am dedicated to the pursuit of coding excellence</p>
                 </div>
             </div> 
