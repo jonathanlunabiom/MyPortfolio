@@ -19,6 +19,14 @@ h1{
     font-size: 3rem;
 }
 
+#main-containerdiv{
+    position: relative;
+    min-height: 100vh;
+}
+.m-container{
+    padding-bottom: 4rem;
+}
+
 body{
     background-color: var(--timberwolf);
 }
@@ -148,6 +156,12 @@ ul{
     color: #B9BAA3;
 }
 
+@media (min-width: 1180px) {
+    #drop-menu{
+        display: none;
+    }
+}
+
 @media (max-width: 1180px) {
     .about-me{
         display: flex;
@@ -172,21 +186,19 @@ ul{
         display: none;
     }
 }
+@media (max-width: 750px) {
 
-@media (max-width: 1400px) {
-
-    img{
-        width: 40vh;
+    header{
+        height: 14vh;
     }
-}
-
-@media (max-width: 650px) {
 
     img{
-        width: 35vh;
+        width: 60px;
     }
     .info-aboutme{
         padding: 1rem;
+        font-size:medium;
+        width: 50vh;
     }
     .about-me{
         gap: 0;
@@ -194,6 +206,23 @@ ul{
     .carousel{
         margin: 0 auto;
         width: 30vh;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        text-align: center;
+        height: 14vh;
+        font-size: 12px;
+    }
+    .m-container{
+        padding-bottom: 5rem;
+    }
+    .mymedia {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 14vh;
     }
 }
 
@@ -238,4 +267,19 @@ input,textarea{
 
 .hide{
     display: none;
+}
+
+.show{
+    display: block;
+}
+
+#drop-menu{
+    padding: 1rem;
+    position: absolute; 
+    background-color: black;
+    width: 20vh;
+}
+
+.list-url-item{
+    display: inline-block;
 }

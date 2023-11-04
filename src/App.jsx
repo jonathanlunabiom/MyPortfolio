@@ -24,7 +24,7 @@ export default function App() {
   const handleChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div id='main-containerdiv'>
       {/* We are passing the currentPage from state and the function to update it */}
       <Header handleChange={handleChange} currentPage={currentPage}/>
       {/* Here we are calling the renderPage method which will return a component  */}
