@@ -14,7 +14,6 @@ export default function Portfolio (){
                     </div>
                     <div className="carousel-item p-2">
                         <img src="./src/assets/SN.png" className="d-block w-100 max-width: 100;" alt="..."/>
-                        <button className="border-0 rounded bg-secondary text-white btn mx-auto"><a href="" className="text-decoration-none text-white">GO SITE</a></button>
                     </div>
                     <div className="carousel-item p-2">
                         <img src="./src/assets/WeatherF.png" className="d-block w-100 max-width: 100;" alt="..."/>

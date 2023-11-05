@@ -7,7 +7,6 @@ export default function Header ({handleChange, currentPage}){
             dropmenuview.toggle('show')
         }
     };
-    
 
     return(
         <header>
