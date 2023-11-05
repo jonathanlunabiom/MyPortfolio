@@ -55,7 +55,7 @@ footer {
 header {
     padding: 2rem 5rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     color: #ffff;
     height: 7vw;
@@ -115,6 +115,7 @@ ul{
     padding-bottom:4px;
     width: 15vh;
     text-align: center;
+    font-size: larger;
 }
 
 .list-url-item-active{
@@ -162,7 +163,7 @@ ul{
     }
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 1510px) {
     .about-me{
         display: flex;
         flex-direction: column;
@@ -186,7 +187,7 @@ ul{
         display: none;
     }
 }
-@media (max-width: 750px) {
+@media (max-width: 850px) {
 
     header{
         height: 14vh;
@@ -197,8 +198,8 @@ ul{
     }
     .info-aboutme{
         padding: 1rem;
-        font-size:medium;
-        width: 50vh;
+        font-size: large;
+        width: 60vh;
     }
     .about-me{
         gap: 0;
@@ -210,13 +211,12 @@ ul{
     footer{
         display: flex;
         flex-direction: column;
-        /* align-items: center; */
         text-align: center;
         height: 14vh;
         font-size: 12px;
     }
     .m-container{
-        padding-bottom: 5rem;
+        padding-bottom: 6rem;
     }
     .mymedia {
         margin: 0 auto;

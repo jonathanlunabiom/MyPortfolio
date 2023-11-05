@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 export default function Portfolio (){
     return(
         <div className="mb-5">
@@ -5,13 +7,17 @@ export default function Portfolio (){
             <div id="carouselExample" className="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active p-2">
-                        <img src="https://www.elsoldemexico.com.mx/gossip/8esuvu-amazin-spiderman-.png/ALTERNATES/LANDSCAPE_768/Amazin%20Spiderman%20.png" className="d-block w-100" alt="..."/>
+                        <img src="./src/assets/chefcito.png" className="d-block w-100" alt="..."/>
                     </div>
                     <div className="carousel-item p-2">
-                        <img src="https://images.pexels.com/photos/2893685/pexels-photo-2893685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="d-block w-100" alt="..."/> 
+                        <img src="./src/assets/movie-night.png" className="d-block w-100" alt="..."/> 
                     </div>
                     <div className="carousel-item p-2">
-                        <img src="https://www.elsoldemexico.com.mx/gossip/8esuvu-amazin-spiderman-.png/ALTERNATES/LANDSCAPE_768/Amazin%20Spiderman%20.png" className="d-block w-100 max-width: 100;" alt="..."/>
+                        <img src="./src/assets/SN.png" className="d-block w-100 max-width: 100;" alt="..."/>
+                        <button className="border-0 rounded bg-secondary text-white btn mx-auto"><a href="" className="text-decoration-none text-white">GO SITE</a></button>
+                    </div>
+                    <div className="carousel-item p-2">
+                        <img src="./src/assets/WeatherF.png" className="d-block w-100 max-width: 100;" alt="..."/>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
