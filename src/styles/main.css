@@ -157,7 +157,7 @@ ul{
     color: #B9BAA3;
 }
 
-@media (min-width: 1180px) {
+@media (min-width: 1510px) {
     #drop-menu{
         display: none;
     }
@@ -276,6 +276,7 @@ input,textarea{
 #drop-menu{
     padding: 1rem;
     position: absolute; 
+    right: 5rem;
     background-color: black;
     width: 20vh;
 }
