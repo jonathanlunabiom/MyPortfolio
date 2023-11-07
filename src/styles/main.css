@@ -241,6 +241,10 @@ ul{
     color: #ffff;
 }
 
+.reserved-p{
+    margin-top: 0.5rem;
+}
+
 .form{
     display: grid;
     height: 30vh;
