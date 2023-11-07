@@ -12,6 +12,7 @@
 ## Description
 
 Welcome to my page, you may find some of my projects and some information about me.
+This page is only a sample, its responsiveness is limited to only a few devices.
 
 ## Usage
 
