@@ -13,7 +13,7 @@ export default function Aboutme (){
                     </p>
                 </div>
                 <div className="phrase-photo">
-                 <img src="/src/assets/JDLA-BN.PNG" alt="Jonathan Luna¿s image" className="jonathanluna-photo"/>
+                 <img src="./src/assets/JDLA-BN.png" alt="Jonathan Luna¿s image" className="jonathanluna-photo"/>
                  <p className="phrase">I am dedicated to the pursuit of coding excellence</p>
                 </div>
             </div> 

@@ -27,6 +27,7 @@ export default function Portfolio (){
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
+                <h5 className="mt-3 text-center">Some of my projects</h5>
             </div>
         </div>
     )
