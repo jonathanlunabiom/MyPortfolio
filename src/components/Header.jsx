@@ -1,3 +1,5 @@
+import img from "../assets/bar.png"
+
 export default function Header ({handleChange, currentPage}){
     function handleMenu(e){
         let dropmenuview = document.getElementById('drop-menu').classList
@@ -19,7 +21,7 @@ export default function Header ({handleChange, currentPage}){
                 </div>
             </div>
             <div id="menu">
-                <img src="./src/assets/bar.png" alt="bar" className="hide" id="menu-bar" onClick={(e)=>handleMenu(e)}/>
+                <img src={img} alt="bar" className="hide" id="menu-bar" onClick={(e)=>handleMenu(e)}/>
                 <div id="drop-menu" className="hide">
                     <a href="#home" onClick={()=> handleChange('home')} className={currentPage === 'home' ? 'list-url-item-active list-url-item' : 'list-url-item'}>About me</a>
                     <a href="#myportfolio" onClick={()=> handleChange('myportfolio')} className={currentPage === 'myportfolio' ? 'list-url-item-active list-url-item' : 'list-url-item'}>My Portfolio</a>

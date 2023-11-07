@@ -1,4 +1,7 @@
-import { useState } from "react";
+import img1 from "../../assets/chefcito.png"
+import img2 from "../../assets/movie-night.png"
+import img3 from "../../assets/SN.png"
+import img4 from "../../assets/WeatherF.png"
 
 export default function Portfolio (){
     return(
@@ -7,16 +10,16 @@ export default function Portfolio (){
             <div id="carouselExample" className="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active p-2">
-                        <img src="./src/assets/chefcito.png" className="d-block w-100" alt="..."/>
+                        <img src={img1} className="d-block w-100" alt="..."/>
                     </div>
                     <div className="carousel-item p-2">
-                        <img src="./src/assets/movie-night.png" className="d-block w-100" alt="..."/> 
+                        <img src={img2} className="d-block w-100" alt="..."/> 
                     </div>
                     <div className="carousel-item p-2">
-                        <img src="./src/assets/SN.png" className="d-block w-100 max-width: 100;" alt="..."/>
+                        <img src={img3} className="d-block w-100 max-width: 100;" alt="..."/>
                     </div>
                     <div className="carousel-item p-2">
-                        <img src="./src/assets/WeatherF.png" className="d-block w-100 max-width: 100;" alt="..."/>
+                        <img src={img4} className="d-block w-100 max-width: 100;" alt="..."/>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
